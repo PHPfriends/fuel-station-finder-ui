@@ -1,0 +1,17 @@
+<div *ngIf="gasStation">
+    <blockquote class="quote-box">
+        <p class="quotation-mark">“</p>
+        <div><label>address: </label>{{gasStation.address}}</div>
+        <div><label>city: </label>{{gasStation.city}}</div>
+        <div><label>province: </label>{{gasStation.province}}</div>
+        <hr>
+        <div class="blog-post-actions">
+            <p class="blog-post-bottom pull-left">
+                {{gasStation.name}}
+            </p>
+            <p class="blog-post-bottom pull-right">
+                <span class="badge quote-badge">{{gasStation.price}}</span> euros
+            </p>
+        </div>
+    </blockquote>
+</div>
