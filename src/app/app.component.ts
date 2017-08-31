@@ -18,8 +18,9 @@ import { Component } from '@angular/core';
             <li><a routerLink="/detail" routerLinkActive="active">Detail</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <!--<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>-->
+            <li><a class="glyphicon glyphicon-log-out" href="#" onclick="signOut();">Sign out</a>
+            </li>
           </ul>
         </div>
       </div>
